@@ -12,7 +12,7 @@ const OUT = "/output/entry.txt";
 // specific detail (4:55 on a Friday, eleven cameras) over stock gags.
 const SETUP = "My manager scheduled a 'quick sync' at 4:55 on a Friday, ";
 const TWIST =
-  "and within two minutes all eleven cameras had developed the same technical difficulty.";
+  "and ninety seconds in, all eleven cameras had developed the exact same technical difficulty.";
 const LINE = SETUP + TWIST;
 
 mkdirSync(dirname(OUT), { recursive: true });
